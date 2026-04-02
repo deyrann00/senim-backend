@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/funds")
-@CrossOrigin(origins = {"http://localhost:5173", "https://senim-wiki.vercel.app", "http://localhost:3000"})
+@CrossOrigin(origins = "*")
 public class BlacklistedFundController {
 
     private final BlacklistedFundRepository fundRepository;

@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/articles")
-@CrossOrigin(origins = {"http://localhost:5173", "https://senim-wiki.vercel.app"})
+@CrossOrigin(origins = "*")
 public class ArticleController {
 
     private final ArticleRepository articleRepository;
